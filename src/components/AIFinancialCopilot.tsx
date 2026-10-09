@@ -478,7 +478,7 @@ const styles = StyleSheet.create({
   aiBadgeText: {
     fontSize: 14,
     fontWeight: '900',
-    color: '#4F46E5',
+    color: '#4ADE80',
   },
 
   inputRow: {
@@ -505,7 +505,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#4F46E5',
+    backgroundColor: '#4ADE80',
   },
 
   askButtonText: {
@@ -563,13 +563,13 @@ const styles = StyleSheet.create({
   answerTitle: {
     fontSize: 14,
     fontWeight: '800',
-    color: '#3730A3',
+    color: '#4ADE80',
   },
 
   answerText: {
     fontSize: 14,
     lineHeight: 21,
-    color: '#312E81',
+    color: '#4ADE80',
   },
 
   emptyCard: {

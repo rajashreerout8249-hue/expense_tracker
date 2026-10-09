@@ -6,21 +6,17 @@
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "scheme": "expensetracker",
-
     "android": {
       "package": "com.expensetracker.mobile",
       "versionCode": 1,
-
       "permissions": [
         "android.permission.SCHEDULE_EXACT_ALARM",
         "android.permission.RECORD_AUDIO"
       ],
-
       "adaptiveIcon": {
         "backgroundColor": "#0B0F17"
       }
     },
-
     "plugins": [
       "expo-router",
       "expo-font",
@@ -28,16 +24,15 @@
       "expo-notifications",
       "expo-speech-recognition"
     ],
-
     "experiments": {
       "typedRoutes": false
     },
-
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "badbb97d-72ce-4187-99e5-c2447a648e24"
+        "projectId": "7692ada4-bfe5-4120-b093-a8f6c96ef4fa"
       }
-    }
+    },
+    "owner": "rajashreerout_8249"
   }
 }

@@ -1,6 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = process.env.EXPO_PUBLIC_API_URL || 'http://192.168.29.21:5000';
+const API_URL = process.env.EXPO_PUBLIC_API_URL || 'http://192.168.29.22:5000';
 
 async function postAuth(path: string, body: Record<string, string>) {
   const response = await fetch(`${API_URL}/api/auth/${path}`, {
